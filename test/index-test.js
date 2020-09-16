@@ -87,6 +87,7 @@ describe('Redux', () => {
     form.simulate('submit',  { preventDefault() {} })
 
     expect(store.getState().bands[0].name).to.equal("Hello")
+  
 
   });
 
