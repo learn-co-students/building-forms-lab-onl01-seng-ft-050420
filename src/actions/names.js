@@ -1,0 +1,1 @@
+export const addBand = objectForBand => ({type: "ADD_BAND", payload: objectForBand})
